@@ -1,0 +1,3 @@
+In web development, browsers often cache resources like images to improve loading times. When a browser loads an image from a URL, it may store that image in its cache. If the same URL is requested again in the future, the browser may use the cached version instead of fetching the image again from the server. This caching mechanism can sometimes lead to issues where the browser displays an outdated version of the image, especially if the image content changes frequently.
+
+To prevent caching and ensure that the browser always fetches the latest version of the image from the server, developers often append a query parameter to the image URL that changes over time. By doing so, the browser treats each request for the image as unique, thus bypassing its cache.

@@ -1,0 +1,7 @@
+Explaination of "inputVal.search(/[a-z]/) == -1"
+
+search() method: As input returns a string so this method searches the string for a specified value (pattern) and returns the index of the first match. If it doesn't find a match, it returns -1.
+
+The square brackets [] define a character set that includes all lowercase letters from 'a' to 'z'. This is because the hyphen - inside the brackets creates a range that includes all characters between 'a' and 'z'.
+
+/[a-z]/ The square brackets [] define an array so for defining a set we used backslashes (Use within regular expressions (Have specific or reserved meaning in JS) to escape special characters and turn them into literal characters.)

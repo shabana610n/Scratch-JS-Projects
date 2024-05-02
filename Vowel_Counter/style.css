@@ -1,0 +1,55 @@
+body {
+    background-color: skyblue;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.vowelcounter {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vowelcounter h1 {
+    margin-bottom: 20px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+textarea {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+
+    padding: 7px 0px 0px 15px;
+}
+
+button {
+    width: 50%;
+    background-color: rgb(1, 147, 147);
+    padding: 10px 13px;
+
+    color: white;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(2, 111, 111);
+}

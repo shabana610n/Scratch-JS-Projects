@@ -1,0 +1,7 @@
+First We have to rander options through JS.
+Check option is selected or not
+In CSS selectors, the ":checked" pseudo-class is used to select elements that are currently checked or selected by the user.  let selectedOption = document.querySelector("input[type='radio']:checked");
+
+In JavaScript, when you select elements using document.querySelector() or similar methods, it captures the state of the DOM at that moment. If you define selectedOption outside of the event listener, it will capture the state of the radio buttons at the time of its execution. At that point, none of the radio buttons are likely to be checked initially, so selectedOption will be null.
+
+By defining selectedOption inside the event listener, you ensure that it captures the state of the radio buttons at the moment the user clicks the submit button. This way, you accurately check whether the user has selected an option before proceeding with further logic.
