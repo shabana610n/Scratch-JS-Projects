@@ -1,0 +1,47 @@
+body {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calendar {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.5);
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.month {
+    background-color: red;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 1.3rem;
+}
+
+.day {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+}
+.date {
+    font-size: 5.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.year {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
