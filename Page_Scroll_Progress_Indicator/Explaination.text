@@ -1,0 +1,7 @@
+const scrollBar = document.querySelector('.scroll-bar');: This line selects the element with the class 'scroll-bar' using document.querySelector() and stores it in a variable named scrollBar. This element represents the scroll bar that will be visually updated based on the user's scrolling behavior.
+
+window.addEventListener('scroll', () => { ... });: This line adds an event listener to the window object for the 'scroll' event. Whenever the user scrolls the page, the code inside the callback function will be executed.
+
+let percentage = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;: This line calculates the percentage of how far down the page the user has scrolled. It divides the current vertical scroll position (window.scrollY) by the total scrollable height of the page (document.body.scrollHeight) minus the height of the viewport (window.innerHeight). Multiplying by 100 converts the result to a percentage.
+
+scrollBar.style.width = percentage + '%';: This line updates the width of the scroll bar element (scrollBar) based on the calculated percentage. The width is set in CSS-like syntax (percentage + '%') to specify the width as a percentage of the container's width.
