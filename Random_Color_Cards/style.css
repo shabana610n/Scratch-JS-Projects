@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tan;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    margin: 3rem;
+}
+
+.card {
+    height: 10.3rem;
+    width: 14rem;
+
+    padding-top: 4.4rem;
+    margin-top: 1rem;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
